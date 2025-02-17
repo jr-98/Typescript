@@ -10,11 +10,6 @@ sorted in ascending order.
 // There are no gifts, the list remains empty**/
 function prepareGifts(gifts: number[]): number[] {
     let array_filter = new Set(gifts);
-    // for (let data of gifts) {
-    //     if (array_filter.indexOf(data) === -1) {
-    //         array_filter.push(data)
-    //     }
-    // }
     return Array.from(array_filter).sort((a, b) => a - b);
 }
 const gifts1 = [3, 1, 2, 3, 4, 2, 5]
