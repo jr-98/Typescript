@@ -1,6 +1,0 @@
-{
-    "type": "module",
-    "devDependencies": {
-        "@esbuild-kit/esm-loader": "^2.6.5"
-    }
-}
